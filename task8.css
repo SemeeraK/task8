@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./pictures/m1.jpg); */
+    background-size: cover;
+}
+.first{
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    background-image: url(./pictures/m1.jpg);
+
+    font-family: 'Caveat', cursive;
+    margin-left: 70px;
+    margin-top: 0px;
+
+}
+.f1{
+    margin-left: 1000px;
+}
+.main{
+    height: 200px;
+    font-family: 'Caveat', cursive;
+    background-image: url(./pictures/main.webp);
+    background-size: cover;
+    /* display: flex; */
+    justify-content: center;
+align-items: center;
+margin-top: 0px;
+
+}
+.hh{
+    margin-top: 50px;
+    
+    margin-left: 100px;
+}
+.sec{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: end;
+    background-image: url(./pictures/main.webp);
+    transition: 5s ease-in-out;
+
+}
+.m{
+    height: 200px;
+    width: 300px;
+    border: solid beige;
+    border-radius: 15px;
+}
+.m1{
+    background-color: aqua;
+    font-family: 'Caveat', cursive;
+    background-image: url(./pictures/mainn.avif);
+    background-size: cover;
+
+}
+.m1:hover{
+    transform: scale(1s);
+
+}
+.m2{
+    background-color: rgb(42, 96, 96);
+    font-family: 'Caveat', cursive;
+    background-image: url(./pictures/acc.avif);
+    background-size: cover;
+
+}
+.m3{
+    background-color: rgb(9, 170, 170);
+    font-family: 'Caveat', cursive;
+    background-image: url(./pictures/mak.jpg);
+    background-size: cover;
+
+}
+.third{
+    height: 500px;
+    background-image: url(./pictures/pas.jpg);
+    display: flex;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+
+
+    
+}
+.p1{
+
+}
+.t{
+    height: 300px;
+    width: 300px;
+    border: solid white;
+    border-radius: 15px;
+    transition: 5s ease-in-out;
+
+}
+.t1{
+    background-color: rgb(42, 96, 96);
+    font-family: 'Caveat', cursive;
+    background-image: url(./pictures/m12.avif);
+    background-size: cover;
+
+}
+.t1:hover{
+transform: scale(1s);
+}
+.footer{
+    height: 300px;
+
+}
+.r{
+    height: 300px;
+
+}
+button{
+    height: 40px;
+    width: 50px;
+    margin-top: 290px;
+    margin-left:150px ;
+    border: solid bisque;
+    color: black;
+    border-radius: 10px;
+}
